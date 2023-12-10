@@ -69,3 +69,11 @@ section.main {
 .mockup h1{
     font-size: 50px;
 }
+
+section.marcas {
+    padding: 100px 0px;
+}
+
+section.marcas img {
+    width: calc(100% / 5);
+}
