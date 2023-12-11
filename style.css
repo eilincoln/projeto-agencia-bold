@@ -169,6 +169,58 @@ section.cta h4 {
     font-weight: bold;
 }
 
+.beneficios {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.esqueda {
+    width: 50%;
+}
+
+.direita {
+    width: 50%;
+}
+.direita  img{
+    /* width: 812px; */
+    max-width: 100%;
+}
+
+.beneficios h2 {
+    color: #040404;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.item-paragrafo {
+    margin-bottom: -34px;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    
+}
+
+.item-paragrafo p {
+    margin-bottom: 21px;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+.beneficios a {
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 22px 30px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 936px) {
     .box-diferenciais h3 {
         font-size: 20px;
