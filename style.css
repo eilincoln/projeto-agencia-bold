@@ -317,6 +317,56 @@ li.slick-active button{
 
 .slick-slide:focus { outline: none; }
 
+/* FIM SLICK SLIDER */
+
+section.contato {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+section.contato h1 {
+    font-size: 50px;
+}
+
+section.contato form {
+    width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=email] {
+    width: 100%;
+    height: 55px;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding-left: 10px;
+}
+
+.contato textarea {
+    width: 100%;
+    height: 120px;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit] {
+    width: 100%;
+    height: 60px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
 
 @media screen and (max-width: 936px) {
     .box-diferenciais h3 {

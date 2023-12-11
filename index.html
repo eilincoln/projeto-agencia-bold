@@ -164,6 +164,18 @@
             </div><!--center-->
         </section><!--depoimentos-->
 
+        <section class="contato">
+            <h1>Entre em contato</h1>
+            <div style="max-width: 600px;" class="center">
+                <form method="post">
+                    <input type="text" placeholder="Seu nome...">
+                    <input type="email" placeholder="Seu e-mail...">
+                    <textarea placeholder="Sua mensagem..." name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="acao" value="enviar">
+                </form>
+            </div><!--center-->
+        </section><!--contato-->
+
 
         <script src="jquery.js"></script>
         <script src="slick.min.js"></script>
@@ -185,7 +197,15 @@
                                 slidesToShow: 2,
                                 slidesToScroll: 2
                               }
-                            }],
+                            }, 
+                            {
+                              breakpoint: 550,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }
+                        ],
                 });
         </script>
     </body>
