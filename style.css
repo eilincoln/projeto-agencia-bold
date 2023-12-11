@@ -221,6 +221,103 @@ section.cta h4 {
     margin-top: 40px;
 }
 
+section.depoimentos {
+    background: #f2f4f8 0% 0% no-repeat padding-box;
+    padding: 40px 0px;
+}
+
+section.depoimentos > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider {
+    overflow: hidden;
+    padding: 40px 0px;
+}
+
+.container-slider-single {
+    float: left;
+    background-color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px #70707016;
+}
+
+.container-slider-single h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.perfil {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.empresa {
+    font-size: 14px;
+    color: #7E92AC;
+    margin-top: 9px;
+    /* font-weight: 100; */
+}
+
+.container-slider-single-rascunho {
+    font-size: 16px;
+    color: #7E92AC;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
+
 @media screen and (max-width: 936px) {
     .box-diferenciais h3 {
         font-size: 20px;
@@ -256,5 +353,48 @@ section.cta h4 {
         max-width: 200px;
         /* align-items: center; */
         margin: 0 auto;
+    }
+
+    .beneficios {
+        margin-top: 100px;
+    }
+
+    .direita  img{
+        /* width: 812px; */
+        max-width: 100%;
+    }
+    
+    .beneficios h2 {
+        color: #040404;
+        font-size: 50px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .item-paragrafo {
+        margin-bottom: -34px;
+        display: flex;
+        align-items: center;
+        width: 75%;
+        
+    }
+    
+    .item-paragrafo p {
+        margin-bottom: 21px;
+        font-size: 13px;
+        color: #7E92AC;
+    }
+    
+    .beneficios a {
+        background: #255AFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 22px 30px;
+        margin-left: 30px;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
